@@ -1,0 +1,264 @@
+@media (max-width: 449px) {
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        grid-template-columns: 100%;
+        grid-gap: 1%;
+    }
+
+    .search-content {
+        padding: 0 15px;
+    }
+
+    .search-input input {
+        width: 100%;
+    }
+
+    .search-input i {
+        transform: translate(20px, 34px);
+    }
+
+    .search-option {
+        margin-top: 26px;
+    }
+
+    .country {
+        height: 335px;
+    }
+
+    .country-flag {
+        height: 190px;
+    }
+
+    .country-info {
+        margin-top: 15px;
+    }
+
+    .country-info p {
+        font-size: 13px;
+    }
+    
+    .country-info p:first-child {
+        font-size: 15px;
+    }
+
+    .country-info p span {
+        font-size: 13px;
+    }
+}
+
+@media(min-width: 450px) {
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5%;
+        grid-row-gap: 1%;
+    }
+
+    .search-content {
+        padding: 0 15px;
+    }
+
+    .search-input input {
+        width: 100%;
+    }
+
+    .search-input i {
+        transform: translate(20px, 34px);
+    }
+
+    .search-option {
+        margin-top: 26px;
+    }
+
+    .country {
+        height: 275px;
+    }
+
+    .country-info {
+        margin-top: 15px;
+    }
+    
+    .country-info p {
+        font-size: 13px;
+    }
+    
+    .country-info p:first-child {
+        font-size: 15px;
+    }
+
+    .country-info p span {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+        margin: auto;
+    }
+
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 4%;
+        grid-row-gap: 2%;
+    }
+
+    .search-content {
+        padding: 0 15px;
+        display: block;
+    }
+
+    .search-input input{
+        width: 100%;
+    }
+
+    .search-input i {
+        transform: translate(20px, 34px);
+    }
+
+    .search-option {
+        margin-top: 26px;
+    }
+
+    .country {
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .row {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 4%;
+        grid-row-gap: 3%;
+    }
+
+    .search-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .search-input input {
+        width: 350px
+    }
+
+    .search-input i {
+        transform: translatex(38px);
+    }
+
+    .search-option {
+        margin-top: 0;
+    }
+
+    .country-flag {
+        height: 125px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .country-flag {
+        height: 160px;
+    }
+
+    .country-info p {
+        font-size: 14px;
+    }
+    
+    .country-info p:first-child {
+        font-size: 16px;
+    }
+
+    .country-info p span {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+
+    .country-flag {
+        height: 195px;
+    }
+
+    .country-info p {
+        font-size: 16px;
+    }
+    
+    .country-info p:first-child {
+        font-size: 18px;
+    }
+
+    .country-info p span {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+
+    .row {
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 4%;
+        grid-row-gap: 4%;
+    }
+
+    .head {
+        font-size: 15px;
+    }
+
+    .icon {
+        font-size: 18px;
+    }
+
+    .search-input input {
+        width: 450px;
+        font-size: 18px;
+    }
+
+    .search-input i {
+        font-size: 17px;
+    }
+
+    .search-option select {
+        width: 278px;
+        font-size: 18px;
+    }
+
+    .search-option i {
+        font-size: 18px;
+    }
+
+    .country-flag {
+        height: 160px;
+    }
+
+    .country-info p {
+        font-size: 17px;
+    }
+    
+    .country-info p:first-child {
+        font-size: 21px;
+    }
+
+    .country-info p span {
+        font-size: 19px;
+    }
+}

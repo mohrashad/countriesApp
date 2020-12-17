@@ -1,0 +1,254 @@
+@media (max-width: 449px) {
+    .container {
+        width: 100%;
+    }
+
+    .head,
+    .icon {
+        font-size: 11px;
+    }
+
+    .btn-back .back {
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .country-details .flag,
+    .detail-content {
+        width: 100%;
+    }
+
+    .detail-content h2 {
+        margin: 20px 0;
+    }
+
+    .left {
+        margin-bottom: 40px;
+    }
+    
+    .left p,
+    .right p,
+    .country-borders p {
+        font-size: 12px;
+    }
+
+    .country-borders {
+        display: block;
+    }
+
+    .country-borders span {
+        display: inline-block;
+        margin-top: 15px;
+        font-size: 12px;
+        width: 90px;
+        padding: 5px 3px;
+        margin-right: 8px;
+        margin-left: 0;
+    }
+}
+
+@media(min-width: 450px) {
+    .container {
+        width: 100%;
+    }
+
+    .head,
+    .icon {
+        font-size: 12px;
+    }
+
+    .btn-back .back {
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .country-details .flag {
+        width: 43%;
+        height: 240px;
+    }
+
+    .detail-content {
+        padding: 10px 0;
+        width: 50%;
+    }
+
+    .country-detail .left {
+        margin-right: 27px;
+        margin-bottom: 16px;
+    }
+
+    .left p,
+    .right p,
+    .country-borders p {
+        font-size: 12px;
+    }
+
+    .country-borders span {
+        font-size: 12px;
+        width: 91px;
+        padding: 5px 2px;
+        margin-left: 9px;
+        line-height: 11px;
+    }
+
+    .country-borders {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-left: -100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+        margin: auto;
+    }
+
+    .country-borders {
+        margin-left: -240px;
+    }
+
+    .country-borders span {
+        width: 81px;
+        padding: 4px 3px;
+        margin-left: 13px;
+        line-height: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .head,
+    .icon {
+        font-size: 14px;
+    }
+
+    .country-details .flag {
+        width: 34%;
+        height: 220px;
+    }
+
+    .detail-content {
+        width: 59%;
+    }
+
+    .country-detail .left {
+        margin-right: 27px;
+        margin-bottom: 0;
+    }
+
+    .country-borders {
+        margin-top: 20px;
+        position: static;
+        margin-left: 0;
+    }
+
+    .country-borders span {
+        width: 89px;
+        padding: 2px 3px;
+        margin-left: 8px;
+        line-height: 19px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .country-details .flag {
+        width: 35%;
+        height: 270px;
+    }
+
+    .detail-content {
+        width: 56%;
+    }
+
+    .country-detail .left {
+        margin-right: 50px;
+    }
+
+    .left p,
+    .right p,
+    .country-borders p{
+        font-size: 14px;
+    }
+
+    .country-borders span {
+        width: 112px;
+        padding: 4px 3px;
+        margin-left: 8px;
+        line-height: 22px;
+        font-size: 14px;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+
+    .head,
+    .icon {
+        font-size: 16px;
+    }
+
+    .btn-back .back {
+        width: 158px;
+        font-size: 16px;
+    }
+
+    .country-detail .left {
+        margin-right: 59px;
+    }
+
+    .left p,
+    .right p,
+    .country-borders p {
+        font-size: 17px;
+    }
+
+    .country-borders span {
+        width: 135px;
+        padding: 7px 3px;
+        line-height: 24px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+
+    .head,
+    .icon {
+        font-size: 17px;
+    }
+
+    .btn-back .back {
+        font-size: 18px;
+    }
+
+    .left p,
+    .right p,
+    .country-borders p {
+        font-size: 18px;
+    }
+
+    .country-details .flag {
+        margin-right: 5%;
+    }
+
+    .country-borders span {
+        margin-top: -6px;
+    }
+
+}

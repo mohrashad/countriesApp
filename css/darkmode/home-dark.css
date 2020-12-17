@@ -1,0 +1,35 @@
+body{
+    background: var(--dark-bg);
+}
+
+header {
+    background: var(--dark-blue);
+    color: var(--white);
+    box-shadow: none;
+}
+
+#search_btn {
+    color: var(--white);
+}
+
+#search_input,
+#search_input::placeholder {
+    color: var(--white);
+}
+
+#search_input {
+    background: var(--dark-blue);
+}
+
+#filterOptions {
+    background: var(--dark-blue);
+    color: var(--white);
+}
+
+.country {
+    background: var(--dark-blue);
+}
+
+.country p {
+    color: var(--white);
+}

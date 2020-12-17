@@ -1,0 +1,20 @@
+body{
+    background: var(--dark-bg);
+}
+
+header {
+    background: var(--dark-blue);
+    color: var(--white);
+    box-shadow: none;
+}
+
+.btn-back .back,
+.country-borders span {
+    background: var(--dark-blue);
+    color: var(--white);
+    box-shadow: none;
+}
+
+.country-details {
+    color: var(--white);
+}
