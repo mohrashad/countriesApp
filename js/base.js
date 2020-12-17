@@ -50,7 +50,7 @@ const formatLangs = langs => {
 
 export const renderCountries = country => {
     const html = `
-        <a class="country" href="../detail.html#${country.alpha3Code}">
+        <a class="country" href="../countriesApp/detail.html#${country.alpha3Code}">
             <div class="country-flag" 
             style="background: url('${country.flag}') no-repeat;
             background-size:cover; background-position: center">
