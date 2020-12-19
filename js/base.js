@@ -14,8 +14,9 @@ export const elements = {
 const formatNumber =  num => {
     num = num.toString();
     const len = num.length;
-
-    if (len >= 7){
+    if (len >= 10){
+        return `${num.slice(0, len - 7)},${num.slice(len - 7, len - 4)},${num.slice(len - 4, len)}`;
+    }else if (len >= 7){
         return `${num.slice(0, len - 6)},${num.slice(len - 6, len - 3)},${num.slice(len - 3, len)}`;
     }else if (len >= 4) {
         return `${num.slice(0, len - 3)},${num.slice(len - 3, len)}`;
